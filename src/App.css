@@ -1,0 +1,71 @@
+.homePageWrapper {
+  /* to make items align center to make height to vh */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper {
+  background: #1f1f21;
+/*   background: #282a36; */
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #0be365;
+  text-decoration: none;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.side {
+  background: #1c1e29;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.sideInner {
+  flex: 1;
+}
+
+.usersList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.CodeMirror {
+  min-height: 80vh;
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
